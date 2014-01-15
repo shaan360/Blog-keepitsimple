@@ -1,0 +1,148 @@
+/* 
+    Document   : Switcher
+    Created on : 15-July-2013, 17:09:30
+    Author     : Shaan
+    Description:
+        Styles Switcher .
+*/
+#style-switcher h3 {
+    color:#000;
+    font-size:12px;
+    margin: 0px 0 -3px 3px;
+
+}
+
+#style-switcher {
+    background: #fff;
+    width:300px;
+    position:fixed;
+    right:0px;
+    z-index:9999;
+    top: 0;
+    border-radius: 0 0 10px 10px;
+    margin-top:0px;
+    border: 2px solid #34495e;
+}
+
+#style-switcher div {
+    padding:5px 10px;
+}
+
+#style-switcher h2 {
+    background: #34495e;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 0;
+    font-size: 14px;
+    padding: 6px 0 5px 10px;
+    text-align : center;
+    margin-top:0px;
+}
+
+#style-switcher h2 a {
+
+    display: block;
+    height: 41px;
+    position: absolute;
+    left: -81px;
+    top:50%;
+    width: 81px;
+    border-radius: 0px;
+/*    background: #34495e;*/
+    color: white;
+    font-weight: bold;
+    padding: 0;
+    font-size: 14px;
+}
+
+.colors { list-style:none; margin:0px 0px 10px 0px; overflow: hidden}
+.colors li { float:left; margin:2px; }
+.colors li a { display: block; width:15px; height:15px; cursor: pointer;
+               border-radius: 12px;
+               -moz-border-radius: 12px;
+               -webkig-border-radius: 12px;
+} 
+
+.layout-style select {
+    width: 100%;
+    padding: 5px;
+
+    margin:0 0 0 -5px;
+    color: #666;
+    cursor: pointer;
+}
+
+#reset {margin: 0 0 15px 2px;}
+
+
+.green, .green-bg { background: #72b626; }
+.blue, .blue-bg { background: #2db2ea; }
+.orange, .orange-bg {background: #fa5b0f; }
+.navy, .navy-bg { background: #495d7f; }
+.yellow, .yellow-bg { background: #ffb400; }
+.peach, .peach-bg { background :#fcab55; }
+.red, .red-bg { background: #c62020; }
+.beige, .beige-bg { background: #bfa980; }
+.pink, .pink-bg { background: #c71c77; }
+.cyan, .cyan-bg { background: #37b6bd;}
+.celadon, .celadon-bg { background: #74aea1;}
+.brown, .brown-bg { background: #784e3d; }
+.cherry, .cherry-bg { background: #911938;}
+.gray, .gray-bg { background: #666666;}
+.sexy-orange{background: #f89406;}
+.purple, .purple-bg { background: #6957af; }
+.olive, .olive-bg { background: #b3c211; }
+.dark, .dark-bg { background: #404040; }
+.dirty-green, .dirty-green-bg { background: #3b6e40; }
+.black, .black-bg { background: #000; }
+.wet-asphalt { background: #34495e; }
+.green-sea { background: #16a085; }
+.alizarin { background: #e74c3c; }
+.carrot { background: #e67e22; }
+.peter-river { background: #3498db; }
+.wisteria { background: #8e44ad; }
+.sun-flower { background: #f1c40f; }
+.pomegranat { background: #c0392b; }
+
+.bg1 { background-image: url("../img/bg/noise.png"); }
+.bg2 { background-image: url("../img/bg/retina_dust.png"); }
+.bg3 { background-image: url("../img/bg/brushed_alu.png"); }
+.bg4 { background-image: url("../img/bg/crisp_paper_ruffles.png"); }
+.bg5 { background-image: url("../img/bg/dark_wall.png"); }
+.bg6 { background-image: url("../img/bg/darkdenim3.png"); }
+.bg7 { background-image: url("../img/bg/diamond_upholstery.png"); }
+.bg8 { background-image: url("../img/bg/egg_shell.png"); }
+.bg9 { background-image: url("../img/bg/light_toast.png"); }
+.bg10 { background-image: url("../img/bg/noise_pattern_with_crosslines.png"); }
+.bg11 { background-image: url("../img/bg/purty_wood.png"); }
+.bg12 { background-image: url("../img/bg/subtle_stripes.png"); }
+.bg13 { background-image: url("../img/bg/textured_stripes.png"); }
+.bg14 { background-image: url("../img/bg/tileable_wood_texture.png"); }
+.bg15 { background-image: url("../img/bg/scribble_light.png"); }
+.bg16 { background-image: url("../img/bg/vertical_cloth.png"); }
+.bg17 { background-image: url("../img/bg/vichy.png"); }
+.bg18 { background-image: url("../img/bg/washi.png"); }
+.bg19 { background: url("../img/bg/phander.jpg") no-repeat; }
+
+.bg20 { background-image: url("../img/bg/bedge_grunge.png"); }
+.bg21 { background-image: url("../img/bg/blu_stripes.png"); }
+.bg22 { background-image: url("../img/bg/chruch.png"); }
+.bg23 { background-image: url("../img/bg/concrete_wall.png"); }
+.bg24 { background-image: url("../img/bg/cracks_1.png"); }
+.bg25 { background-image: url("../img/bg/denim.png"); }
+.bg26 { background-image: url("../img/bg/green_dust_scratch.png"); }
+.bg27 { background-image: url("../img/bg/husk.png"); }
+.bg28 { background-image: url("../img/bg/natural_paper.png"); }
+.bg29 { background-image: url("../img/bg/pool_table.png"); }
+.bg30 { background-image: url("../img/bg/redox_02.png"); }
+.bg31 { background-image: url("../img/bg/shattered.png"); }
+.bg32 { background-image: url("../img/bg/smooth_wall.png"); }
+.bg33 { background-image: url("../img/bg/solid.png"); }
+.bg34 { background-image: url("../img/bg/square_bg.png"); }
+.bg35 { background-image: url("../img/bg/white_texture.png"); }
+.bg36 { background-image: url("../img/bg/white_wall.png"); }
+.bg37 { background-image: url("../img/bg/whitey.png"); }
+.bg38 { background-image: url("../img/bg/little_pluses.png"); }
+.colors li a.active { box-shadow:0 0 0 2px #404040 inset }
+
+@media only screen and (max-width: 1029px) {#style-switcher {display: none;}}
